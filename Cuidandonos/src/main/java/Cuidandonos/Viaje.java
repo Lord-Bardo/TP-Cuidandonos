@@ -5,7 +5,6 @@ import java.util.List;
 public class Viaje {
     private Ubicacion direccionOrigen;
     private List<Parada> paradas;
-    private LocalDateTime tiempoEstimado;
     private IAdapter calculador;
 
     public double calcularTiempoViajeTotal(){
